@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Student Management System</h2>
+
+<div class="form-box">
+    <input id="student_id" type="number" placeholder="Student ID">
+    <input id="name" placeholder="Name">
+    <input id="age" type="number" placeholder="Age">
+    <input id="course" placeholder="Course">
+    <input id="marks" type="number" placeholder="Marks">
+    <button onclick="addStudent()">Add Student</button>
+</div>
+
+<h3>Student List</h3>
+
+<table id="studentTable">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Course</th>
+            <th>Marks</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
